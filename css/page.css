@@ -7,7 +7,6 @@
 }
 
 .page .header{
-border: 1px solid red;
 grid-area: header;
 }
 
@@ -17,6 +16,6 @@ grid-area: header;
 }
 
 .page .calendar{
-    border: 1px solid green;
+
     grid-area: calendar;
 }
