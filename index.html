@@ -49,6 +49,10 @@
     </header>
 
     <div class="sidebar">
+      <button class="button is-rounded is-shadow">
+        <i class="icon-plus"></i>
+        <span>Crear</span>
+      </button>
       <div class="miniCalendar" aria-label="Calendario de navegacion">
         <div class="miniCalendar-status">
           <time class="miniCalendar-date" datetime="2021-06-07">Junio 2021</time>
@@ -115,6 +119,31 @@
           <div class="niniCalendar-monthDay is-inactive">11</div>
         </div>
       </div>
+      <form class="search" action="">
+        <i class="icon-users"></i>
+        <input placeholder="Buscar personas" type="text">
+      </form>
+      <details class="calendarDetails">
+        <summary>Mis calendarios</summary>
+        <div class="calendarDetails-container">
+          <div class="calendarDetails-task">
+            <i class="icon-check-square"></i>
+            <span>Cuempleaños</span>
+          </div>
+          <div class="calendarDetails-task">
+            <i class="icon-check-square"></i>
+            <span>Tareas</span>
+          </div>
+          <div class="calendarDetails-task">
+            <i class="icon-check-square"></i>
+            <span>Recordatorios</span>
+          </div>
+          <div class="calendarDetails-task">
+            <i class="icon-check"></i>
+            <span>Clases</span>
+          </div>
+        </div>
+      </details>
     </div>
     <main class="calendar">
       <div class="currentTime"></div>

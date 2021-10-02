@@ -1,0 +1,13 @@
+.search{
+    background: var(--gray10);
+    padding-inline: 1rem;
+    padding-block: .625rem;
+    border-radius: .25rem;
+}
+
+.search input{
+    background: var(--gray10);
+    border: none;
+    color: var(--gray20);
+    outline: none;
+}

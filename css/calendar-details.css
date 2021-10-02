@@ -1,0 +1,25 @@
+.calendarDetails{
+    font: var(--body1-medium);
+    color: var(--gray30);
+}
+
+.calendarDetails-container{
+    display: flex;
+    flex-direction: column;
+    gap: .75rem ;
+    margin-block-start: .5rem;
+}
+
+.calendarDetails-task{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    cursor: pointer;
+    font: var(--body1-regular);
+    color: var(--gray30);
+}
+
+.calendarDetails-task i{
+    color: var(--gray50);
+    font-size: 1.5rem;
+}
