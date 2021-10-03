@@ -27,10 +27,10 @@
     background: var(--white);
   }
   
-  @media screen and (prefers-color-scheme: dark) {
+  /* @media screen and (prefers-color-scheme: dark) {
     :root {
       --gray50: #fffffe;
       --gray20: #c1c1c1;
       --white: #222222;
     }
-  }
+  } */
