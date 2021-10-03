@@ -452,5 +452,60 @@
       </div>
     </main>
   </div>
+
+  <dialog class="modal">
+    <form class="createTask" action="">
+      <div class="input is-outstanding">
+        <div class="input-body">
+          <input required name="title" type="text" placeholder="Añade un titulo">
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-clock"></i>
+        <div class="input-body">
+          <input type="date" name="date" required>
+          <input type="time" name="time-start" required>
+          <input type="time" name="time-end" required>
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-users"></i>
+        <div class="input-body">
+          <input type="text" list="guests" name="guests" placeholder="Agregar invitados">
+          <datalist id="guests">
+            <option value="leo"></option>
+            <option value="juan"></option>
+          </datalist>
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-gps"></i>
+        <div class="input-body">
+          <input name="location" type="text" placeholder="Agregar ubicacion">
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-text"></i>
+        <div class="input-body">
+          <input type="file" multiple>
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-text"></i>
+        <div class="input-body">
+          <textarea name="description" placeholder="Agregar descripcion" id="" cols="40" rows="2"></textarea>
+        </div>
+      </div>
+    </form>
+    <div class="modal-actions">
+      <button id="close-modal" class="button">
+        Cancelar
+      </button>
+      <button class="button is-primary">
+        Guardar
+      </button>
+    </div>
+  </dialog>
+<script src="./js/app.js" type="module" ></script>
 </body>
 </html>
