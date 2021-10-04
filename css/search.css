@@ -3,6 +3,7 @@
     padding-inline: 1rem;
     padding-block: .625rem;
     border-radius: .25rem;
+    display:flex;
 }
 
 .search input{
